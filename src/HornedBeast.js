@@ -2,7 +2,7 @@
 
 // The HornedBeast component needs to contain an <h2> that displays the title of the animal, an <img> element with src, alt and title attributes, and a <p> that displays the description.
 
-
+import "./HornedBeast.css"
 
 const HornedBeast = (props) => {
     return (        
