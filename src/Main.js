@@ -1,4 +1,4 @@
-import HornedBeast from "./hornedbeast";
+import HornedBeast from "./HornedBeast";
 
 // The Main component needs to render at least two copies of a component called HornedBeast
 

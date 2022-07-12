@@ -6,7 +6,7 @@
 
 const HornedBeast = (props) => {
     return (        
-        <div class="animal">
+        <div className="animal">
             <h2>{props.title}</h2>
             <img src={props.image_url} alt={props.description} title={props.title} />
             <p>{props.description}</p>
