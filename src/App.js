@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+// Your App component should render a Header, Footer and Main component, each of which is defined in their own files.
+
+class App extends React.Component {
+  render() {  
+    return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
+ }
 }
 
 export default App;
