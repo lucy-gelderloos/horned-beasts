@@ -2,7 +2,7 @@
 
 // The HornedBeast component needs to contain an <h2> that displays the title of the animal, an <img> element with src, alt and title attributes, and a <p> that displays the description.
 
-const hornedBeast = () => {
+const HornedBeast = () => {
     return (        
         <div class="animal">
             <h2>Name</h2>
@@ -12,4 +12,4 @@ const hornedBeast = () => {
 
   }
   
-export default hornedBeast;
+export default HornedBeast;
