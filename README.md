@@ -22,7 +22,7 @@ Start time: 4:30 PM
 
 Finish time: 6:30 PM
 
-Actual time needed to complete: 1.5h, minus dinner break
+Actual time needed to complete: 2h
 
 ### Feature 3 - Bootstrap
 
@@ -30,9 +30,9 @@ Estimate of time needed to complete: 2h
 
 Start time: 6:45 PM
 
-Finish time: 10:00 PM
+Finish time: 11:00 PM
 
-Actual time needed to complete: not done yet :(
+Actual time needed to complete: 4h, most of which was Bootrap troubleshooting
 
 ### Stretch - Add interaction
 
