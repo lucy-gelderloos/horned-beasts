@@ -18,7 +18,7 @@ Actual time needed to complete: 10m
 
 Estimate of time needed to complete: 2h
 
-Start time: _____
+Start time: 4:30 PM
 
 Finish time: _____
 
