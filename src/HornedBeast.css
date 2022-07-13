@@ -1,4 +1,23 @@
+@import "./reset.css";
+
 img {
     max-width:300px;
     max-height:300px;
+}
+
+.imageAndClicks {
+    
+}
+
+.clicks {
+    background-color: white;
+    border-radius: 7px;
+    margin: 5px;
+    width: 4em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -35px;
 }

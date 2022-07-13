@@ -26,10 +26,12 @@ class HornedBeast extends React.Component {
     return (      
         <div className="animal">
             <h2>{this.title}</h2>  
-            <img onClick={this.handleClick} src={this.image_url} alt={this.description} title={this.title} />
-            <div class="votes">
-                <img src={heart} alt="heart" />
-                <p>{this.state.clicks}</p>
+            <div className="imageAndClicks">
+                <img onClick={this.handleClick} src={this.image_url} alt={this.description} title={this.title} />
+                <div className="clicks">
+                    <img src={heart} alt="heart" />
+                    <p>{this.state.clicks}</p>
+                </div>
             </div>
             <p>{this.description}</p>
         </div>
