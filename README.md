@@ -20,19 +20,19 @@ Estimate of time needed to complete: 2h
 
 Start time: 4:30 PM
 
-Finish time: _____
+Finish time: 6:30 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1.5h, minus dinner break
 
 ### Feature 3 - Bootstrap
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2h
 
-Start time: _____
+Start time: 6:45 PM
 
-Finish time: _____
+Finish time: 10:00 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: not done yet :(
 
 ### Stretch - Add interaction
 

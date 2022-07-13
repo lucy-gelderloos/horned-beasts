@@ -1,3 +1,4 @@
+import Container from 'react-bootstrap/Container';
 import React from "react";
 import "./HornedBeast.css";
 import heart from "./heart.png";
@@ -25,6 +26,7 @@ class HornedBeast extends React.Component {
     render() {
     return (      
         <div className="animal">
+            {/* <Container> */}
             <h2>{this.title}</h2>  
             <div className="imageAndClicks">
                 <img onClick={this.handleClick} src={this.image_url} alt={this.description} title={this.title} />
@@ -34,6 +36,7 @@ class HornedBeast extends React.Component {
                 </div>
             </div>
             <p>{this.description}</p>
+            {/* </Container> */}
         </div>
         );
   }

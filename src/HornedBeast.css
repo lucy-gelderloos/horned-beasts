@@ -1,8 +1,11 @@
 @import "./reset.css";
 
-img {
+.animal {
     max-width:300px;
-    max-height:300px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .clicks {
@@ -16,4 +19,8 @@ img {
     justify-content: space-evenly;
     position: absolute;
     margin-top: -35px;
+}
+
+.clicks p {
+    margin-bottom: 0;
 }
