@@ -1,5 +1,6 @@
 import React from "react";
-import "./HornedBeast.css"
+import "./HornedBeast.css";
+import heart from "./heart.png";
 
 class HornedBeast extends React.Component {
     constructor(props) {
@@ -26,6 +27,10 @@ class HornedBeast extends React.Component {
         <div className="animal">
             <h2>{this.title}</h2>  
             <img onClick={this.handleClick} src={this.image_url} alt={this.description} title={this.title} />
+            <div class="votes">
+                <img src={heart} alt="heart" />
+                <p>{this.state.clicks}</p>
+            </div>
             <p>{this.description}</p>
         </div>
         );
