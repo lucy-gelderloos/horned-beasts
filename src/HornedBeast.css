@@ -1,11 +1,11 @@
 @import "./reset.css";
 
-.animal {
-    max-width:300px;
-}
-
 img {
     max-width: 100%;
+}
+
+.col {
+    min-width:200px;
 }
 
 .clicks {

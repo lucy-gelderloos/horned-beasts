@@ -1,3 +1,5 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import HornedBeast from "./HornedBeast.js";
 import Images from "./data.json";
 
@@ -11,7 +13,13 @@ const Main = () => {
     })
 
     return (
-        <main>{displayArr}</main>
+        <main>
+          <Container>
+            <Row>
+              {displayArr}
+            </Row>
+          </Container>
+        </main>
         );
     }
 
