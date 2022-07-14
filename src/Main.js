@@ -10,22 +10,19 @@ import React from 'react';
 
 class Main extends React.Component {
 
-    imageCols = () => {
-      let imagesArr = this.props.images;
-      let displayArr = [];
-      imagesArr.forEach((el) => {
-      displayArr.push(<HornedBeast key={el._id} image_url={el.image_url} title={el.title} description={el.description} handleModalClick={this.props.handleModalClick} />);
-      })
-    }
+  constructor(props) {
+    super(props);
+    this.images = props.images;
+    // this.handleModalClick = props.handleModalClick();
+  }
 
-    render () {
-      this.imageCols();
+  render () {
 
     return (
         <main>
           <Container>
             <Row>
-              {this.displayArr}
+              {this.images.map(el => <HornedBeast image_url={el.image_url} title={el.title} description={el.description} handleModalClick={this.props.handleModalClick} />)}
             </Row>
           </Container>
         </main>

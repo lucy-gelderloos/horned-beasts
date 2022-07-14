@@ -32,10 +32,10 @@ class SelectedBeast extends React.Component {
             </Modal.Header>
             <Modal.Body>
                 <h2>{this.props.imageTitle}</h2>
-                <img src={this.props.imgageUrl} alt={this.props.imageDesc} title={this.props.imageTitle} />
+                <img src={this.props.imageUrl} alt={this.props.imageDesc} title={this.props.imageTitle} />
             </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={this.closeModal}>
+              <Button variant="secondary" onClick={this.props.closeModal}>
                 Close
               </Button>
             </Modal.Footer>

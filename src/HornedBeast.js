@@ -7,7 +7,7 @@ class HornedBeast extends React.Component {
     constructor(props) {
         super(props);
         this.state = {clicks: 0};
-        this.handleVoteClicks = this.handleVoteClick.bind(this)
+        this.handleVoteClick = this.handleVoteClick.bind(this);
         this.title = props.title;
         this.image_url = props.image_url;
         this.description = props.description;
@@ -22,7 +22,7 @@ class HornedBeast extends React.Component {
         });
     }
 
-    handleModalClick() {
+    handleModalClick = () => {
         this.props.handleModalClick(this);
     }
 
@@ -32,7 +32,7 @@ class HornedBeast extends React.Component {
             <h2>{this.title}</h2>  
             <div className="imageAndClicks">
                 <img onClick={this.handleModalClick} src={this.image_url} alt={this.description} title={this.title} />
-                <div className="clicks" onclick={this.handleVoteClick}>
+                <div className="clicks" onClick={this.handleVoteClick}>
                     <img src={heart} alt="heart" />
                     <p>{this.state.clicks}</p>
                 </div>

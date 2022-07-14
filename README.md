@@ -42,8 +42,8 @@ Estimate of time needed to complete: 2h
 
 Start time: 3:15 PM
 
-Finish time: _____
+Finish time: n/a
 
-Actual time needed to complete: _____
+Actual time needed to complete: 5 hours so far
 
 ### Stretch - Fuzzy Search
