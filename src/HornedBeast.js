@@ -7,28 +7,28 @@ class HornedBeast extends React.Component {
     constructor(props) {
         super(props);
         this.state = {clicks: 0};
-        this.handleClick = this.handleClick.bind(this)
+        this.clickToVote = this.clickToVote.bind(this)
         this.title = props.title;
         this.image_url = props.image_url;
         this.description = props.description;
-        this._id = props._id;
+        this.key = props._id;
         this.keyword = props.keyword;
         this.horns = props.horns;
     }
 
-    handleClick() {
+    clickToVote() {
         this.setState({
             clicks: this.state.clicks + 1
         });
-        console.log(this.state.clicks);
+        this.props.modal(this.key);
     }
-    
+
     render() {
-    return (      
+    return (
         <Col className="animal">
             <h2>{this.title}</h2>  
             <div className="imageAndClicks">
-                <img onClick={this.handleClick} src={this.image_url} alt={this.description} title={this.title} />
+                <img onClick={this.clickToVote} src={this.image_url} alt={this.description} title={this.title} />
                 <div className="clicks">
                     <img src={heart} alt="heart" />
                     <p>{this.state.clicks}</p>

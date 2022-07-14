@@ -34,12 +34,16 @@ Finish time: 11:00 PM
 
 Actual time needed to complete: 4h, most of which was Bootrap troubleshooting
 
-### Stretch - Add interaction
+## Lab 3 Time Estimates
 
-Estimate of time needed to complete: _____
+### Feature 1 - Display a Modal
 
-Start time: _____
+Estimate of time needed to complete: 2h
+
+Start time: 3:15 PM
 
 Finish time: _____
 
 Actual time needed to complete: _____
+
+### Stretch - Fuzzy Search
