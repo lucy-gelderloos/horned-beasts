@@ -7,20 +7,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import HornedBeast from "./HornedBeast.js";
 import React from 'react';
-// import SelectedBeast from './SelectedBeast.js';
-// import Modal from 'react-bootstrap/Modal'
 
 class Main extends React.Component {
 
-    constructor(props) {
-      super(props);
-      this.images = props.images;
-    }
-
     imageCols = () => {
+      let imagesArr = this.props.images;
       let displayArr = [];
-      this.images.forEach((el) => {
-      displayArr.push(<HornedBeast key={el._id} image_url={el.image_url} title={el.title} description={el.description} handleVoteClick={this.props.handleVoteClick} />);
+      imagesArr.forEach((el) => {
+      displayArr.push(<HornedBeast key={el._id} image_url={el.image_url} title={el.title} description={el.description} handleModalClick={this.props.handleModalClick} />);
       })
     }
 

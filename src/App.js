@@ -22,11 +22,11 @@ import SelectedBeast from './SelectedBeast.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {modalImage: null, viewModal: false};
+    this.state = {modalImgUrl: null, modalImgTitle: null, modalImgDesc: null, viewModal: false};
   }
 
-  handleVoteClick = (image) => {
-    this.setState({modalImage: image, viewModal: true});
+  handleModalClick = (image) => {
+    this.setState({modalImgUrl: image.props.image_url, modalImgTitle: image.props.title, modalImgDesc: image.props.description, viewModal: true});
   }
 
   closeModal = () => {
@@ -37,8 +37,8 @@ class App extends React.Component {
       return (
         <>
         <Header />
-        <Main images={Images} handleVoteClick={this.handleVoteClick} />
-        <SelectedBeast image={this.modalImage} closeModal={this.closeModal} viewModal={this.state.viewModal} />
+        <Main images={Images} handleModalClick={this.handleModalClick} />
+        <SelectedBeast imageUrl={this.state.modalImgUrl} imageTitle={this.state.modalImgTitle} imageDesc={this.state.modalImgDesc} closeModal={this.closeModal} viewModal={this.state.viewModal} />
         <Footer />
       </>
       );

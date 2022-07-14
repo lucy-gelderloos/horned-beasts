@@ -17,31 +17,33 @@ import "./HornedBeast.css";
 // import heart from "./heart.png";
 
 class SelectedBeast extends React.Component {
-
-      modal = (ev) => {
-        ev.preventDefault();
-        this.props.modal(this.props.key);
-      }
-    
-    
-      render() {
-        return (
-          <>
-            <Modal show={this.state.isOpen} onHide={this.closeModal}>
-              <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-              <Modal.Footer>
-                <Button variant="secondary" onClick={this.closeModal}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
-          </>
-        );
-      }
+  
+  // constructor(props) {
+  //   super(props);
+  //   this.image = props.image;
+  // }
+  
+  render() {
+      return (
+        <>
+          <Modal show={this.props.viewModal} onHide={this.props.closeModal}>
+            <Modal.Header closeButton>
+              <Modal.Title>{this.props.imageTitle}</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <h2>{this.props.imageTitle}</h2>
+                <img src={this.props.imgageUrl} alt={this.props.imageDesc} title={this.props.imageTitle} />
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={this.closeModal}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+        </>
+      );
     }
+  }
 
     // https://www.pluralsight.com/guides/how-to-trigger-modal-for-react-bootstrap
 
