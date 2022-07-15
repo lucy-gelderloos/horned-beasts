@@ -1,7 +1,7 @@
 import Col from 'react-bootstrap/Col'
 import React from "react";
 import "./HornedBeast.css";
-import heart from "./heart.png";
+import heart from "../img/heart.png";
 
 class HornedBeast extends React.Component {
     constructor(props) {
