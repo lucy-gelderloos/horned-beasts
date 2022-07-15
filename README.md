@@ -45,3 +45,15 @@ Start time: 3:15 PM 7/13
 Finish time: 5 PM 7/14
 
 Actual time needed to complete: 8 hours
+
+## Lab 4 Time Estimates
+
+### Feature 1 - Filter by Number of Horns
+
+Estimate of time needed to complete: 4h
+
+Start time: 5:30 PM
+
+Finish time:
+
+Actual time needed to complete:
