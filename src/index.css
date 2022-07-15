@@ -1,18 +1,50 @@
 body {
-  /* margin: 0; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header h1 {
+  font-size: 3em;
+  padding-top: 18px;
 }
 
-h1 {
-  font-size: 3em;
+header {
+  width: 100%;
+  background-color: lightgray;
+  height: 100px;
 }
 
 h2 {
   font-size: 2em;
 }
 
+footer {
+  background-color: lightgray;
+  height: 3em;
+}
+
+form {
+  width:100%;
+  /* display: flex; */
+}
+
+main {
+  background-color:rgb(255, 229, 82);
+}
+
+.container {
+  background-color: white;
+}
+
+.form-label {
+  font-weight:bold;
+  /* padding: 10px; */
+}
+
+.formCol {
+  padding: 10px;
+  background-color: skyblue;
+}
+
+.formCol p {
+  font-weight:bold;
+}
