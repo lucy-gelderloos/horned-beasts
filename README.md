@@ -40,10 +40,8 @@ Actual time needed to complete: 4h, most of which was Bootrap troubleshooting
 
 Estimate of time needed to complete: 2h
 
-Start time: 3:15 PM
+Start time: 3:15 PM 7/13
 
-Finish time: _____
+Finish time: 5 PM 7/14
 
-Actual time needed to complete: _____
-
-### Stretch - Fuzzy Search
+Actual time needed to complete: 8 hours

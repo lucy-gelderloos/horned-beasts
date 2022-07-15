@@ -11,16 +11,29 @@ img {
 .clicks {
     background-color: white;
     border-radius: 7px;
-    margin: 5px;
+    margin: -35px 5px 5px 5px;
     width: 4em;
     height: 1.5em;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    margin-top: -35px;
+    cursor: pointer;    
 }
 
 .clicks p {
     margin-bottom: 0;
 }
+
+.clicks img:hover {
+    animation: grow .3s linear 1;
+}
+
+@keyframes grow {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
