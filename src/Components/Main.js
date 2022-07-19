@@ -43,7 +43,7 @@ render () {
             <Row>
               <Col className="formCol">
                 <p>Click the <img src={heart} alt="heart" /> to select your favorites!</p>
-                <hr />
+                <hr /> 
                 <Form>
                 <Form.Group>
                   <Form.Label>Filter beasts by number of horns:</Form.Label>
